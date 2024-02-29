@@ -1,5 +1,8 @@
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Duru Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background: black;
   font-size: 1rem;
 }
@@ -22,6 +25,10 @@ header h1 {
   margin: 0;
   padding-left: 1rem;
   color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 header {
@@ -44,7 +51,7 @@ header nav {
 header nav a {
   margin-right: 1rem;;
   vertical-align: bottom;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white;
   text-decoration: none;
   padding-bottom: 0.5rem;
@@ -55,7 +62,7 @@ a.active {
   background-repeat: repeat-x;
   background-size: 1px 1px;
   background-position: 0 100%;
-  background-position: 0 calc(100% - 0.4em);
+  background-position: 0 calc(100% - 0.6em);
 }
 
 
@@ -93,7 +100,7 @@ a.active {
    }
    
    .text {
-     font-size: 1.3rem;
+     font-size: 1.2rem;
      padding: 0 10rem;
    }
 
@@ -131,4 +138,7 @@ a.active {
     text-align: left;
     margin-right: auto;
 
+  }
+  #nicholas {
+    background: rgba(0,0,0,0.6);
   }
