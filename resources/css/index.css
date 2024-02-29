@@ -1,3 +1,63 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: black;
+  font-size: 1rem;
+}
+
+body section {
+  color: white;
+  text-align: center;
+}
+
+section .container {
+  text-align: left;
+}
+
+section#title {
+  position: relative;
+  z-index: -1;
+}
+
+header h1 {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+header {
+  position: sticky;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 1.5rem 0;
+  background: rgba(0,0,0, 0.3);
+  color: rgb(255,255,225, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  margin-right: 1rem;;
+  vertical-align: bottom;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+
+a.active {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  background-position: 0 100%;
+  background-position: 0 calc(100% - 0.4em);
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -27,69 +87,21 @@
   }
 
 
-  .container1 {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-   }
-   
    img {
      max-width: 50%;
-     max-height:50%;
    }
    
    .text {
-     font-size: 20px;
-   }
-
-   .container2 {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-   }
-   
-   img {
-     max-width: 50%;
-     max-height:50%;
-   }
-   
-   .text {
-     font-size: 20px;
+     font-size: 1.3rem;
    }
 
    .container {
+    overflow: hidden;
     display: grid;
-    align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
    }
    
-   img {
-     max-width: 50%;
-     max-height:50%;
-   }
-   
-   .text {
-     font-size: 20px;
-   }
-
-   .container2 {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-   }
-   
-   img {
-     max-width: 50%;
-     max-height:50%;
-   }
-   
-   .text {
-     font-size: 20px;
-   }
    
    .row {
     display: flex;
