@@ -21,6 +21,7 @@ section#title {
 header h1 {
   margin: 0;
   padding-left: 1rem;
+  color: white;
 }
 
 header {
@@ -93,13 +94,15 @@ a.active {
    
    .text {
      font-size: 1.3rem;
+     padding: 0 10rem;
    }
 
    .container {
+     margin-top: 5rem;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
    }
    
    
@@ -110,4 +113,22 @@ a.active {
   .column {
     flex: 100%;
     padding: 1px;
+  }
+
+  #about {
+    background-image: url(../images/A010_02010154_C009_braw_01_54_38_20_Still003.jpg);
+    background-size: cover;
+  }
+
+  #team {
+    background-image: url(../images/team-bg.webp);
+    background-size: cover;
+  }
+
+  #about .text {
+    margin-top: 10rem;
+    max-width: 35rem;
+    text-align: left;
+    margin-right: auto;
+
   }
